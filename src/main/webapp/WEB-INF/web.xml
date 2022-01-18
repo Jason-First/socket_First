@@ -9,4 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+<!-- 
+	<servlet>
+		<servlet-name>Socket_First</servlet-name>
+		<servlet-class>FrontController.firstPage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Socket_First</servlet-name>
+		<url-pattern>/Welcome_Socket.go</url-pattern>
+	</servlet-mapping>
+   -->
+  
+  
+  
 </web-app>
