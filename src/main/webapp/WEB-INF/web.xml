@@ -10,16 +10,26 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-<!-- 
+  
+  	<servlet>
+		<servlet-name>firstPage</servlet-name>
+		<servlet-class>FrontController.firstPage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>firstPage</servlet-name>
+		<url-pattern>/Welcome_FirstPage.go</url-pattern>
+	</servlet-mapping>
+
 	<servlet>
 		<servlet-name>Socket_First</servlet-name>
 		<servlet-class>FrontController.firstPage</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Socket_First</servlet-name>
-		<url-pattern>/Welcome_Socket.go</url-pattern>
+		<url-pattern>/Socket.go</url-pattern>
 	</servlet-mapping>
-   -->
+	
+	
   
   
   
