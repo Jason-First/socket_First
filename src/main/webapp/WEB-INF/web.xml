@@ -28,9 +28,14 @@
 		<servlet-name>Socket_First</servlet-name>
 		<url-pattern>/Socket.go</url-pattern>
 	</servlet-mapping>
-	
-	
-  
-  
+
+	<servlet>
+		<servlet-name>jsConnection</servlet-name>
+		<servlet-class>FrontController.firstPage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jsConnection</servlet-name>
+		<url-pattern>/jscon.go</url-pattern>
+	</servlet-mapping>
   
 </web-app>

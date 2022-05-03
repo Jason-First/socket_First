@@ -27,8 +27,11 @@ public class firstPage extends HttpServlet {
 		if(getPage.equals("Welcome_FirstPage")) {
 			getPage = "firstPage.jsp";
 		}else if(getPage.equals("Socket")) { //회사소개-인사말
-			getPage = "test.jsp";
+			getPage = "socket.jsp";
+		}else if(getPage.equals("jscon")) { //회사소개-인사말
+			getPage = "double/contest.jsp";
 		}
+
 		
 		request.setAttribute("page", getPage);
 		request.getRequestDispatcher(htmlDir + getPage).forward(request, response);		

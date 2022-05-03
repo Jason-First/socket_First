@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>WebSocket_TEST</title>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
 		// 「WebSocketEx」는 프로젝트 명
 		// 「websocket」는 호스트 명
 		// WebSocket 오브젝트 생성 (자동으로 접속 시작한다. - onopen 함수 호출)
-		var webSocket = new WebSocket("ws://localhost:8080/socket_First/Socket/websocket");
+		var webSocket = new WebSocket("ws://localhost:8080/socket_First/websocket");
 		// 콘솔 텍스트 에리어 오브젝트
 		var messageTextArea = document.getElementById("messageTextArea");
 		// WebSocket 서버와 접속이 되면 호출되는 함수
